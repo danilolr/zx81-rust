@@ -1,0 +1,13 @@
+[package]
+name = "zx81-rust"
+version = "0.1.0"
+edition = "2024"
+description = "Standalone ZX81 emulator in Rust"
+
+[dependencies]
+z80emu = { version = "0.11.0", default-features = false, features = ["std"] }
+minifb = { version = "0.28", default-features = false, features = ["x11"] }
+
+[profile.release]
+lto = "thin"
+

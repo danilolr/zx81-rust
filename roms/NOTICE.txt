@@ -1,0 +1,52 @@
+ROM images bundled with eighty-three
+====================================
+
+These ROM images are NOT part of eighty-three and are NOT covered by its GPL
+licence. They are original third-party firmware, bundled so the emulator runs
+out of the box. Each keeps its own copyright. If you redistribute eighty-three,
+keep this notice.
+
+
+ZX81 ROM  --  zx81.edition1.rom, zx81.edition2.rom, zx81.edition3.rom
+--------------------------------------------------------------------
+The Sinclair ZX81 firmware (operating system + BASIC), editions 1-3.
+
+    ZX81 ROM (C) 1981 Sinclair Research Ltd.
+
+Included following the long-standing convention among ZX emulators (EightyOne,
+Fuse, ...), which rests on Amstrad's public permission to redistribute Sinclair
+ROMs together with emulators. Amstrad's terms (via Cliff Lawson, Amstrad): the
+copyright message inside the ROM must not be altered, and the ROM must not be
+sold for profit. Permission text -- World of Spectrum, "Copyright & Distribution
+Permissions":
+
+    https://worldofspectrum.net/permits/
+    (historically hosted at worldofspectrum.org/permits/)
+
+NOTE on the ZX81 specifically: Amstrad's permission was given primarily for the
+ZX SPECTRUM ROMs. Amstrad bought Sinclair's computer line in 1986 (rights later
+to Sky, 2007), but Cliff Lawson of Amstrad stated he did not believe the
+copyright to the ZX80/ZX81 (or Interface 1/2) rests with Amstrad. So the exact
+present rights-holder of the ZX81 ROM is unclear; it is distributed here under
+the same tolerant, community-accepted practice, not a formal licence -- not for
+profit, with the in-ROM copyright kept intact.
+
+
+ZXpand+ overlay ROM  --  zx81.zxpand.ovl
+---------------------------------------
+This is NOT a Sinclair ROM and is NOT covered by the Amstrad permission above.
+
+    ZXpand / ZXpand+ overlay firmware (C) 2011 Charlie Robson / EightyBits.
+
+The firmware is developed in the open at:
+
+    https://github.com/charlierobson/ZXpand-Vitamins
+
+That repository carries NO explicit software licence (GitHub's default is then
+"all rights reserved"), and the manual is marked (C) 2011 Charlie Robson /
+EightyBits. There is therefore no formal grant to redistribute it inside a
+third-party bundle. It is included here only to emulate the ZXpand+; if you
+redistribute eighty-three, the safest course is to obtain the overlay from the
+ZXpand project directly (link above) and/or seek the author's permission. It can
+also simply be omitted -- eighty-three runs without it (only the "Boot ZXpand+
+menu" feature needs it).

@@ -1,0 +1,5 @@
+/target/
+*.p
+*.p81
+*.ppm
+!/examples/*.p

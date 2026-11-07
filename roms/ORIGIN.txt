@@ -1,0 +1,11 @@
+Sinclair ZX81 firmware, edition 3
+Size: 8192 bytes
+SHA-256: 14ad84f4243efcd41587ff46ab932d11087043e8d455a1ed2a227b9657828dfa
+
+Copied on 2026-11-07 at the user's request, without changing the source file:
+/home/danilo/dev/openstd/server/cores/zx81/ROMs/zx81.edition3.rom
+
+Only this firmware image and its original NOTICE.txt were copied.
+No eighty-three or OpenSTD emulator code is compiled or used at runtime.
+The local source path above is provenance, not an application dependency.
+See NOTICE.txt for the firmware's original attribution and distribution notice.

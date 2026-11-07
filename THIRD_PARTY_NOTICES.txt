@@ -1,0 +1,35 @@
+zx81-rust — direct dependencies and firmware
+==========================================
+
+z80emu 0.11.0
+  Copyright (C) 2019-2024 Rafal Michalski
+  Rust Z80 CPU emulation library.
+  License: LGPL-3.0-or-later.
+  Source: https://github.com/royaltm/rust-z80emu
+  Package: https://crates.io/crates/z80emu/0.11.0
+  License texts: licenses/z80emu-LGPL-3.0.txt and licenses/z80emu-GPL-3.0.txt
+  Used as a Cargo dependency; its source code has not been modified.
+
+minifb 0.28.0
+  Copyright (c) 2014, 2016 Daniel Collin
+  Local framebuffer window and keyboard input.
+  Package license: MIT OR Apache-2.0.
+  Source: https://github.com/emoon/rust_minifb
+  Package: https://crates.io/crates/minifb/0.28.0
+  License texts: licenses/minifb-MIT.txt and licenses/minifb-Apache-2.0.txt
+  Used as a Cargo dependency; its source code has not been modified.
+
+Sinclair ZX81 ROM, edition 3
+  Copyright (C) 1981 Sinclair Research Ltd.
+  This is third-party firmware, separate from the emulator's code.
+  Original notice: roms/NOTICE.txt
+  Copy provenance and hash: roms/ORIGIN.txt
+
+Cargo.lock records the complete dependency graph, including transitive packages.
+Their original notices and source files are included in the corresponding Cargo
+registry packages. No OpenSTD or eighty-three emulator source is linked.
+
+Technical references consulted for the original ZX81 hardware/ROM behavior:
+  https://kliveide.net/en/under-the-hood/emulator-internals/zx81-display/
+  https://kliveide.net/en/under-the-hood/emulator-internals/zx81-tape/
+  Sinclair ZX81 BASIC Programming (Steven Vickers, second edition, 1981).
